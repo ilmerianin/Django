@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Автор:</h1> 
+  <h1>Фамилия:{{ author.last_name }}</h1> 
+  <h1>Имя: {{ author.first_name}}</h1> 
+
+  
+  <p><strong>Дата рождения:</strong> {{ author.date_of_birth }}</p>
+  <p><strong>Дата смерти:</strong> {{ author.date_of_death }}</p>
+
+  <div style="margin-left:20px;margin-top:20px">
+    <h4>Книги:</h4>
+
+  </div>
+{% endblock %}
