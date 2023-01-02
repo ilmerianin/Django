@@ -27,6 +27,8 @@ SECRET_KEY = "django-insecure-332=ls_j%&bfhnjopp2mao9-t^$o((j9^p@ssu=kv09mu9y)cu
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['212.8.247.164', '127.0.0.1','.dnsmgr2.deserv.net' , '.dnsmgr1.deserv.net',  'localhost']
+# адреса  которым будет доверять 
 
 
 # Application definition
