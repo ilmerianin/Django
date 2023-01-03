@@ -1,5 +1,5 @@
 from django.shortcuts import render
-            #https://docs.djangoproject.com/en/1.10/topics/http/shortcuts/#django.shortcuts.render
+            
 
 # Create your views here.
 from .models import Book, Author, BookInstance, Genre
