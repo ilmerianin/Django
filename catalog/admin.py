@@ -18,7 +18,7 @@ class BooksInstanceInline(admin.TabularInline): #https://docs.djangoproject.com/
 class BookAdmin(admin.ModelAdmin):
     list_display = ('title', 'author', 'display_genre') # замена или дополненеие str метода
     inlines = [BooksInstanceInline] #     https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.inlines
-                    # примеру, вполне логично получить и информацию о книге, и информацию о конкретных копиях, зайдя на страницу детализации.
+                    #  получить и информацию о книге, ю о конкретных копиях, зайдя на страницу детализации.
 
 # Register the Admin classes for BookInstance using the decorator
 
