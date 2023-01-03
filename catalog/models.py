@@ -1,5 +1,5 @@
 from django.db import models
-#https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Admin_site
+
 
 # Create your models here.
 class Genre(models.Model):
